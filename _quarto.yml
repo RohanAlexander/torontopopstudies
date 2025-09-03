@@ -1,0 +1,27 @@
+project:
+  type: website 
+  output-dir: docs
+
+website:
+  title: "Population Studies Initiative"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: seminar.qmd
+        text: Seminar
+      - href: affiliates.qmd
+        text: Affiliates
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme:
+      - flatly
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+
